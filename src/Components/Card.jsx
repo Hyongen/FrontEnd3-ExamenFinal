@@ -37,7 +37,7 @@ const Card = ({ name, username, id }) => {
     <div className="card">
         <p>{id}</p>
         <p>{username}</p>
-        <img src="/images/doctor.jpg" alt="doctor placeholder" />
+        {/* <img src="/images/doctor.jpg" alt="doctor placeholder" /> */}
         
         <Link to={`/detail/${id}`}>
         {name}
